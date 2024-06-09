@@ -1,0 +1,1 @@
+tasklist|find /i "BandicamPortable.exe" && echo started || start "" "d:\Users\huangzt\Desktop\Bandicam\Bandicam-7.1.0.2151-x64-Portable\Bandicam\BandicamPortable.exe"

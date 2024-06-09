@@ -1,0 +1,19 @@
+﻿<Window x:Class="DesktopRecording.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesktopRecording"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="215" Width="293" >
+    <Grid>
+        <Button Name="开机启动" Content="开机启动" HorizontalAlignment="Left" Margin="97,64,0,0" VerticalAlignment="Top" Height="24" Width="82" Click="Button_Click" IsEnabled="True"/>
+        <Button Content="软件停止" HorizontalAlignment="Left" Margin="97,93,0,0" VerticalAlignment="Top" Height="24" Width="82" Click="Button_Click_1"/>
+        <Button Content="自动删除" HorizontalAlignment="Left" Margin="97,122,0,0" VerticalAlignment="Top" Height="24" Width="82" Click="Button_Click_2"/>
+        <Label Name="label" Content="Label" HorizontalAlignment="Left" Margin="97,10,0,0" VerticalAlignment="Top" Height="23" Width="168"/>
+        <Label Name="labelTime" Content="删除几分钟之前的MP4？" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Height="23" Width="168"/>
+        <TextBox Name="textboxTime" Text="3" HorizontalAlignment="Left" Margin="146,154,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="35"/>
+        <Button Name="监控自启动" Content="监控自启动开" HorizontalAlignment="Left" Margin="97,35,0,0" VerticalAlignment="Top" Height="24" Width="82" Click="Button_Click_3" />
+
+    </Grid>
+</Window>

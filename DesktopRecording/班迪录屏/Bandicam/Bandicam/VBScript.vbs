@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "d:\Users\huangzt\Desktop\Bandicam\pm_Bandicam.bat", 0, True
