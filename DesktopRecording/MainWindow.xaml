@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesktopRecording"
         mc:Ignorable="d"
-        Title="MainWindow" Height="215" Width="293" >
+        Title="自动录屏" Height="215" Width="293" >
     <Grid>
         <Button Name="开机启动" Content="开机启动" HorizontalAlignment="Left" Margin="97,64,0,0" VerticalAlignment="Top" Height="24" Width="82" Click="Button_Click" IsEnabled="True"/>
         <Button Content="软件停止" HorizontalAlignment="Left" Margin="97,93,0,0" VerticalAlignment="Top" Height="24" Width="82" Click="Button_Click_1"/>
